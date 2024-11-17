@@ -1,0 +1,57 @@
+.container{
+  background-image: url('/background.png');
+  height: 100vh;
+  /* background-position: center; */
+  background-size: cover;
+  padding: 20px 100px;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin-bottom: 30px;
+}
+.bottomHeader{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+.bottomHeader p{
+  font-size: 20px;
+  color: white;
+}
+.bottomHeaderTitle{
+  font-size: 50px;
+  font-weight: 500;
+  color: white;
+}
+.hero{
+  display: flex;
+  justify-content: center;
+  flex-direction: column;
+  align-items: center;
+}
+.hero p{
+  font-size: 14px;
+}
+.hero h3{
+  font-size: 24px;
+  margin-bottom: 40px;
+}
+.hero button {
+  margin-bottom: 50px;
+}
+.hero img{
+margin-bottom: 30px;
+}
+.listeArticleContainer{
+  display: flex;
+  justify-content: center;
+  margin-bottom: 40px;
+}
+.listeArticle{
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    grid-template-rows: repeat(2, 1fr);
+    grid-column-gap: 30px;
+    grid-row-gap: 30px;
+    
+}

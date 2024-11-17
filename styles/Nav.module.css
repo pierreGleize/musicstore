@@ -1,0 +1,27 @@
+.nav{
+    color: white;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    /* padding: 10px 0; */
+  }
+  .navLeft{
+    width: 10vw;
+  }
+  .nav svg:hover{
+    cursor: pointer;
+    opacity: 0.7;
+  
+  }
+  .title{
+    font-weight: 300;
+    letter-spacing: 10px;
+    font-size: 25px;
+    text-align: center;
+  }
+  .navIcon{
+   /* gap: 20px; */
+   display: flex;
+   justify-content: space-between;
+   width: 10vw;
+  }
